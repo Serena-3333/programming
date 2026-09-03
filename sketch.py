@@ -24,11 +24,11 @@ import random
 # The knobs. These are yours. Change them, run again, look, commit.
 # ---------------------------------------------------------------------------
 
-COLS = 10            # squares across
-ROWS = 22            # squares down — the chaos builds over this many rows
+COLS = 15            # squares across
+ROWS = 32            # squares down — the chaos builds over this many rows
 SEED = 5913          # any integer. Same seed = same image, every time, forever.
 CHAOS = 2.0           # how fast order collapses. 0 = perfect grid. 2 = rubble.
-SQUARE = 40          # size of one square, in svg units
+SQUARE = 30          # size of one square, in svg units
 MARGIN = 30         # breathing room around the grid
 STROKE = "#E692AA"   # line colour
 BACKGROUND = "#bed7de"
